@@ -35,7 +35,7 @@ This project is developed using the follow tools:
 
 Also the following libraries where used:
 
-* [Realm] v. 0.72.0
+* [Realm] v. 0.71.0
 * [GraphView] v.3.1.3
 * [SmoothProgressBar] library-circular v. 1.0.1
 
