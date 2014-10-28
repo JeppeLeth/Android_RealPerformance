@@ -43,7 +43,7 @@ Installation
 --------------
 
 ``
-Install the release.apk on your device or import the project in Android Studio and build using Gradle v. 0.12.2
+Install the rrealmPerformanceApp/app/app-release.apk on your device or import the project in Android Studio and build using Gradle v. 0.12.2
 ``
 
 
