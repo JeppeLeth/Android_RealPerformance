@@ -30,10 +30,11 @@ Tech
 
 This project is developed using the follow tools:
 
-* Android SDK
-* Android Studio 
+* Android SDK v. 21
+* Android Studio v. 0.8.9
 
 Also the following libraries where used:
+
 * [Realm] v. 0.72.0
 * [GraphView] v.3.1.3
 * [SmoothProgressBar] library-circular v. 1.0.1
@@ -42,9 +43,21 @@ Installation
 --------------
 
 ``
-Install the release.apk on your device or import the project in Android Studio and build using Gradle v. 12.0.1
+Install the release.apk on your device or import the project in Android Studio and build using Gradle v. 0.12.2
 ``
 
+
+Change the number of queries in the dk.bitbreakers.android.realmperformance.Constants.java file
+
+```
+    /**
+     * Number of queries to test performance with
+     * If you change this parameter, please make sure to clear the whole application on the device
+     * before installing a new build.
+     * In a later edition this could be setup to change dynamically by the users selection.
+     */
+    int TEST_QUERIES_COUNT      = 250_000;
+```
 
 License & Development
 ----

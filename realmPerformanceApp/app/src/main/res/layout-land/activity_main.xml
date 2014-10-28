@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <fragment
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:id="@+id/main_fragment"
+        android:name="dk.bitbreakers.android.realmperformance.ui.fragment.MainFragment"
+        tools:layout="@layout/fragment_main" />
+
+    <include layout="@layout/ui_statements"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        />
+
+</LinearLayout>

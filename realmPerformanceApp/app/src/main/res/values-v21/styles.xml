@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="FrameworkRoot.Button" parent="android:Widget.Material.Button" />
+
+    <style name="RealmButton" parent="FrameworkRoot.Button">
+    </style>
+
+</resources>

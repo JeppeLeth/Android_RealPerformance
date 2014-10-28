@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Realm Performance</string>
+    <string name="hello_world">Realm is a mobile database: a replacement for SQLite &amp; Core Data\nRealm can save you thousands of lines of code &amp; weeks of work, and lets you craft amazing new user experiences.</string>
+    <string name="action_homepage">Homepage</string>
+    <string name="action_github">GitHub</string>
+    <string name="action_twitter">Twitter</string>
+    <string name="action_stackoverflow">Stack Overflow</string>
+    <string name="action_email">Email</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="loading_database_setup">Loading initial database setup</string>
+    <string name="realm">Realm</string>
+    <string name="sqlite">SQLite</string>
+    <string name="sqlite_perf_test_btn">SQLite Test</string>
+    <string name="realm_perf_test_btn">Realm Test</string>
+    <string name="sinus_test_header">%1$s query %2$s rows</string>
+    <string name="sinus_test_desc">This test will run queries on an %1$s database that contains %2$s rows.\nEach row contains an integer X a double Y coordinate, that get plotted into the graph upon retrieval.\nThis test case searches sequentially through all entries until it reaches the end. First time the test data has to be bulk inserted to the database, so it may take some seconds.</string>
+    <string name="title_activity_performance_test">Performance test</string>
+    <string name="action_reset">Reset</string>
+    <string name="test_setup_finished">Setup finished. Duration was %1$s ms</string>
+    <string name="main_button_header">Try comparing using your own device</string>
+    <string name="statements_heading">What Does Realm Look Like?</string>
+    <string name="statement1_header">Feels like Home</string>
+    <string name="statement1_desc">Realm’s data structures look like the Objects and Arrays of your language, but provide additional features such as: querying, relationships &amp; graphs, thread safety, and more.\nCompared to Core Data or other ORMs, you get a much simpler API, easy thread-safety and much improved performance on reads &amp; writes.</string>
+    <string name="statement2_header">Memory-Efficient</string>
+    <string name="statement2_desc">Realm is not built on SQLite. Instead, a custom C++ core is used to provide memory-efficient access to your data by using Realm objects, which usually consume less RAM than native objects. The core also provides an optional persistence layer that can automatically save and retrieve your objects from disk.</string>
+    <string name="statement3_header">F-F-Fast!</string>
+    <string name="statement3_desc">Realm offers extraordinary performance compared to SQLite and other persistence solutions.\nIt has been in development since 2011 and powers an app with over 1 million daily active users at Zynga.</string>
+
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <color android:state_pressed="true"   android:drawable="@color/realm_accent_hover"/>
+    <color android:state_focused="true"   android:drawable="@color/realm_accent_focus"/>
+    <color android:drawable="@color/realm_accent"/>
+</selector>

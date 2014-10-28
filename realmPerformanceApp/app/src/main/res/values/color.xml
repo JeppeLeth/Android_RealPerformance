@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="realm_primary">#333</color>
+    <color name="realm_accent">#3276b2</color>
+    <color name="realm_accent_hover">#428bca</color>
+    <color name="realm_accent_focus">#2a6496</color>
+    <color name="realm_button_border">#285e8e</color>
+    <color name="realm_text_highlight">#F0727D</color>
+    <color name="realm_background">#222</color>
+    <color name="realm_deactivated">#b33276b2</color>
+</resources>
